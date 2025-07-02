@@ -70,7 +70,7 @@ icon: material/bullseye-arrow
 
 <!-- Markdown content with embedded HTML -->
 <div>
-    <h2>Please submit the form below with your Attendee ID.</h2> 
+    <h2>Please select Attendee ID as any 3-digit number.</h2> 
     <h3>All configuration entries in the lab guide will be renamed to include your Attendee ID.</h3>
     <form id="attendee-form">
         <label for="attendee">Attendee ID:</label>
@@ -110,21 +110,6 @@ Designing a **Webex AI Agent** for a flower shop to assist customers via **voice
   - **Exceptional customer experience** across all interactions
 
 
-## Learning Objectives
-
-Welcome to **"Hands-on AI in Action with Webex Contact Center: Enhancing Self-Service, Agent Assistance & Customer Insights - LTRCCT-2000"** Instructor-led Lab
-
-![Profiles](../graphics/NewLab/Overview/1.1.png)
-
-In this lab, participants will: <br><br>
- **• Uncover Trends & Opportunities:** Analyze customer conversation data to identify key themes, trends, and automation opportunities for improved service efficiency. <br><br>
- **• Integrate Intelligent AI Agents:** Utilize Cisco Autonomous and Scripted AI Agents to build dynamic, context-aware self-service flows that adapt to customer needs in real-time. <br><br>
-**• Seamless AI-to-Human Collaboration:** Experience smooth transitions from AI agents to human agents, ensuring continuous context and interaction summaries for effective issue resolution. <br><br>
-**• Enhance In-Interaction Insights:** Experience AI-driven call summarisation to enhance agent productivity and service quality. <br><br>
-**• Predict Customer Sentiment:** Learn to leverage AI to forecast customer satisfaction (CSAT) based on interaction data, enabling proactive service adjustments and how to use this for proactive customer engagement. <br><br>
-**• Utilize Proactive Campaign:** Proactively engage customers through intelligent outreach and dynamic self-service using Webex AI Agents.
-
-    
 ## Disclaimer
 The lab design and configuration examples provided are for educational purposes. For production design queries, please consult your Cisco representative or an authorized Cisco partner.
 Let’s get started and discover how **Webex Contact Center Flow Designer** takes customer experiences from good to great!
