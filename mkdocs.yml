@@ -3,7 +3,7 @@ site_name: "LTRCCT-2000 Hands-On AI in Action: The Future of Customer Care with 
 site_description: "LTRCCT-2000 Hands-On AI in Action: The Future of Customer Care with Webex Contact Center"
 Speaker: "Speakers: Krishna Tyagi & Mykola Danylchuk"
 site_author: Mykola Danylchuk, Yaroslav Bondar
-site_name: LTRCCT-2000
+site_name: AI Bootcamp
 # must be same as "site_name"
 copyright: Copyright &copy; 2025 Cisco Systems Inc. All Rights Reserved.
 theme:
@@ -104,11 +104,6 @@ nav:
       - Access you Lab Environment: ./main/PreRequisites.md
       - Quick Links: quicklinks.md
 #      - Chrome and Webex App Setup: ./main/Browser_and_Desktop_Setup.md 
-  - Topic Analytics:
-      - Lab Guide:
-            - "Lab overview": ./main/AI_Lab_Topic_Overview.md
-            - "Mission 1: Explore Topic Analytics": ./main/AI_Lab_Topic_Mission1.md
-      - Conclusion: ./main/AI_Lab_Topic_Conclusion.md
   - Autonomous AI Agent:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Overview.md
@@ -117,14 +112,6 @@ nav:
 #            - "Mission 3: Upload prebuilt AI Agent. Failover for Mission 2": ./main/AI_Lab_Aut_Mission3.md
             - "Mission 3: Integrating the AI Agent with Flow for Voice Calls": ./main/AI_Lab_Aut_MissionX.md
       - Conclusion: ./main/AI_Lab_Aut_Conclusion.md
-  - AI Assistant:
-      - Lab Guide:
-            - "Lab overview": ./main/AI_Lab_Features_Overview.md
-            - "Mission 1: AI Agent Transfer Summary": ./main/AI_Lab_Assist_Mission1.md
-            - "Mission 2: Call Drop Summary": ./main/AI_Lab_Assist_Mission_2.md
-            - "Mission 3: Real Time Transcript": ./main/AI_Lab_Assist_Mission3.md
-            - "Mission 4: AutoCSAT": ./main/AI_Lab_Assist_AutoCSAT.md
-      - Conclusion: ./main/AI_Lab_Assist_Conclusion.md
   - Scripted AI Agent:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Scripted_Overview_New.md
@@ -135,6 +122,19 @@ nav:
             - "Mission 5 (BONUS): Configure the fulfillment": ./main/AI_Lab_Scripted_Mission5.md
             - "Mission 6 (BONUS): Deliver fulfillment results to the caller": ./main/AI_Lab_Scripted_Mission6.md
       - Conclusion: ./main/AI_Lab_Scripted_Conclusion.md
+  - Topic Analytics:
+      - Lab Guide:
+            - "Lab overview": ./main/AI_Lab_Topic_Overview.md
+            - "Mission 1: Explore Topic Analytics": ./main/AI_Lab_Topic_Mission1.md
+      - Conclusion: ./main/AI_Lab_Topic_Conclusion.md
+  - AI Assistant:
+      - Lab Guide:
+            - "Lab overview": ./main/AI_Lab_Features_Overview.md
+            - "Mission 1: AI Agent Transfer Summary": ./main/AI_Lab_Assist_Mission1.md
+            - "Mission 2: Call Drop Summary": ./main/AI_Lab_Assist_Mission_2.md
+            - "Mission 3: Real Time Transcript": ./main/AI_Lab_Assist_Mission3.md
+            - "Mission 4: AutoCSAT": ./main/AI_Lab_Assist_AutoCSAT.md
+      - Conclusion: ./main/AI_Lab_Assist_Conclusion.md
 #  - Scripted AI Agent:
 #      - Lab Guide:
 #            - "Lab overview": ./main/AI_Lab_Scripted_Overview.md
@@ -147,12 +147,12 @@ nav:
             - "Mission 2: Upload and configure Webex Connect flow": ./main/AI_Lab_Digital_Mission2.md
             - "Mission 3: Test the AI Agent integration with the Digital Channel": ./main/AI_Lab_Digital_Mission3.md
       - Conclusion: ./main/AI_Lab_Digital_Overview.md
-  - (BONUS) IVR Campaign:
-      - Lab Guide:
-            - "Lab overview": ./main/AI_Lab_IVR_Campaign_Overview.md
-            - "Mission 1: Portal Overview": ./main/AI_Lab_IVR_Campaign_Mission1.md
-            - "Mission 2: Configure Campaign": ./main/AI_Lab_IVR_Campaign_Mission2.md
-      - Conclusion: ./main/AI_Lab_IVR_Campaign_Conclusion.md
-  - Related Sessions: ./main/Related_Sessions.md
+#  - (BONUS) IVR Campaign:
+#     - Lab Guide:
+#           - "Lab overview": ./main/AI_Lab_IVR_Campaign_Overview.md
+#           - "Mission 1: Portal Overview": ./main/AI_Lab_IVR_Campaign_Mission1.md
+#           - "Mission 2: Configure Campaign": ./main/AI_Lab_IVR_Campaign_Mission2.md
+#     - Conclusion: ./main/AI_Lab_IVR_Campaign_Conclusion.md
+# - Related Sessions: ./main/Related_Sessions.md
 ###  - Ask a Question<i class="fa-solid fa-hand" style="color:#63E6BE;"></i>: slido-QA-iFrame.md
 
