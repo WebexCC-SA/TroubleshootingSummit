@@ -70,7 +70,7 @@ icon: material/bullseye-arrow
 
 <!-- Markdown content with embedded HTML -->
 <div>
-    <h2>Please select Attendee ID as any 3-digit number.</h2> 
+    <h2>Please enter Attendee ID as <b>any</b> 3-digit number.</h2> 
     <h3>All configuration entries in the lab guide will be renamed to include your Attendee ID.</h3>
     <form id="attendee-form">
         <label for="attendee">Attendee ID:</label>
@@ -97,7 +97,7 @@ Designing a **Webex AI Agent** for a flower shop to assist customers via **voice
 - **Collecting order details** for both **standard and custom bouquets**  
 - **Calculating total price** in real time  
 - **Gathering delivery information**, including **address** and **delivery date**  
-- **order confirmations via SMS**  
+- **order confirmations via email**  
 - **Providing order status updates** upon request  
 - **Sharing store hours** and relevant **business information**  
 - **Transferring to a human agent** when needed for complex inquiries  
