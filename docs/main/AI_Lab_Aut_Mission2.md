@@ -200,14 +200,15 @@ Also see this change in action below.
    ![Profiles](../graphics/Lab1_AI_Agent/2.39.gif)
 
 
-2. On the right top click on **Edit**. Then from the available Utilities on the left side find the **SMS** and drag and drop the block to the flow. Connect **HTTP Request** node to the **SMS** node. 
-   ![Profiles](../graphics/Lab1_AI_Agent/2.68.gif)
+2. On the right top click on **Edit**. Then from the available Utilities on the left side find the **Email** and drag and drop the block to the flow. Connect **HTTP Request** node to the **Email** node. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.77.gif)
 
-3. Double click on the SMS block and configure the following:
+3. Double click on the Email block and configure the following:
 
-     > Destination: ***$(n2.aiAgent.phoneNumber)***<span class="copy-static" title="Click to copy!" data-copy-text="$(n2.aiAgent.phoneNumber)"><span class="copy"></span></span><br>
-     > From Number: ***12066478712***<span class="copy-static" title="Click to copy!" data-copy-text="12066478712"><span class="copy"></span></span><br>
-     >Message Type: **Text**<br>
+     > DestinationID: ***$(n2.aiAgent.email)***<span class="copy-static" title="Click to copy!" data-copy-text="$(n2.aiAgent.email)"><span class="copy"></span></span><br>
+     > From Name: ***Flower Shop***<span class="copy-static" title="Click to copy!" data-copy-text="Flower Shop"><span class="copy"></span></span><br>
+     >Email Type: **Text**<br>
+     >Email Sugject: **Flower Order Details**<br>
      ><br>
      >Message as below:<br>
      ><br>
@@ -218,22 +219,21 @@ Also see this change in action below.
      >delivery: "$(n2.aiAgent.delivery)"<br>
      >address: "$(n2.aiAgent.address)"<br>
      >status: "$(n2.aiAgent.status)"<br>
-     >phoneNumber: "$(n2.aiAgent.phoneNumber)"<br></b>
+     >email: "$(n2.aiAgent.email)"<br></b>
      >
      >
      >
-   ![Profiles](../graphics/Lab1_AI_Agent/2.69.gif)
+   ![Profiles](../graphics/Lab1_AI_Agent/2.78.gif)
 
-4. Save and Click on **Make Live**. 
-   ![Profiles](../graphics/Lab1_AI_Agent/2.70.gif)
+4. Save and Click on **Make Live**. Select the Email Accet that is configured in your tenant. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.79.gif)
 
 
 ### Task 6. Test the order creating and details delivery over SMS. 
 
-1. In the Webex AI Agent Studio, click on preview and order flowers for you friend. 
-   ![Profiles](../graphics/Lab1_AI_Agent/2.72.gif)
+1. In the Webex AI Agent Studio, click on chat preview and order flowers for you friend. 
 
-2. Check if the confirmation SMS was received on your phone. </br>
-   ![Profiles](../graphics/Lab1_AI_Agent/2.73.png)
+2. Check if the confirmation email was received on your email box. </br>
+   ![Profiles](../graphics/Lab1_AI_Agent/2.80.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
