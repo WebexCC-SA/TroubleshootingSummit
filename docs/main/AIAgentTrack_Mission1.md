@@ -125,14 +125,10 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 
 ### Task 2. Test your AI Agent
 
-1. Click on **Preview** and testing the AI Agent to understnad how it behaives using Chat channel. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flower for my friend"><span class="copy"></span></span> and try to customize you order. 
-
+1. Click on **Preview** and testing the AI Agent to understnad how it behaives using Chat channel. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flower for my friend"><span class="copy"></span></span> and try to customize you order. Please be aware that you still haven't configured the order creation and email confirmation functionalities. For now, just test the flower selection and price calculation.
 ![Profiles](../graphics/Lab1_AI_Agent/2.59.gif)
 
 2. Click on **Preview** and testing the AI Agent to understnad how it behaives using Voice channel. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flower for my friend"><span class="copy"></span></span> and try to customize you order. 
-> **Note:** This Lab is being conducted in a classroom with approximately 30 attendees.  
-> Environmental factors, such as background noise and other attendees speaking next to you, may affect the response accuracy.  
-> For best results, it is **strongly recommended to use computer headphones**, if available.
 
 
 ![Profiles](../graphics/Lab1_AI_Agent/2.60.gif)
