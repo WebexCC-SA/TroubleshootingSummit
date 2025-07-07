@@ -103,7 +103,7 @@ Example: ***new***<span class="copy-static" title="Click to copy!" data-copy-tex
 Required: <b>Yes</b>
 
 10. At this point you should see 6 created entities. Please double check it. 
-    ![Profiles](../graphics/Lab1_AI_Agent/2.61.png)
+    ![Profiles](../graphics/Lab1_AI_Agent/Auth1.png)
 
 11. In the Webex Connect Builder Fulfillment select Service: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Service">Your_Attendee_ID</span>_2000_Service<span   class="copy" title="Click to copy!"></span></span>** and Flow: <b>Create_Order_Flowers</b> Click **Add**
    ![Profiles](../graphics/Lab1_AI_Agent/2.22.gif)
@@ -125,12 +125,12 @@ Required: <b>Yes</b>
       "delivery": "Type",
       "address": "Type",
       "status": "Type",
-      "phoneNumber": "Type"
+      "email": "Type"
     }
     ```
 
 3. Then click on **Parse** and **Save** the change.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.62.gif)
+   ![Profiles](../graphics/Lab1_AI_Agent/2.76.gif)
 
 4. Drag and drop **HTTP Request** node from the left side of the Webex Connect Flow Builder. Connect **AI Agent** block to the **HTTP Request** block. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.27.gif)
@@ -151,7 +151,7 @@ Required: <b>Yes</b>
     >        "delivery": "$(n2.aiAgent.delivery)",
     >        "address": "$(n2.aiAgent.address)",
     >        "status": "$(n2.aiAgent.status)",
-    >        "phoneNumber": "$(n2.aiAgent.phoneNumber)"
+    >        "email": "$(n2.aiAgent.email)"
     >       }
     >       ```   
     > <br>
