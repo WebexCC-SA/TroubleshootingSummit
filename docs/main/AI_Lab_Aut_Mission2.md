@@ -44,7 +44,7 @@ Configure an action to collect order details from the customer and send them to 
 4. From the Integrations list select AI Agent. 
     ![Profiles](../graphics/Lab1_AI_Agent/2.12.gif)
 
-5. For now, save the flow and **Make it live**. We will return to configuring this flow later. Creating it now is necessary to complete configurations in the AI Studio Portal.
+5. For now, save the flow and **Make it live**. We will return to configuring this flow later. Creating it now is necessary to complete the Action configurations in the AI Studio Portal.
     ![Profiles](../graphics/Lab1_AI_Agent/2.13.gif)
 
 ### Task 2. Configure Action in the AI Studio.
@@ -75,16 +75,16 @@ Example: ***Yes,No***<span class="copy-static" title="Click to copy!" data-copy-
 Required: <b>Yes</b>
 
 6. By following the same pattern, create an entity to collect the customer's phone number.<br>
-Entity Name: ***phoneNumber***<span class="copy-static" title="Click to copy!" data-copy-text="phoneNumber"><span class="copy"></span></span> <br>
+Entity Name: ***email***<span class="copy-static" title="Click to copy!" data-copy-text="email"><span class="copy"></span></span> <br>
 Entity Typs: <b>string</b> <br>
-Description: ***Collect customer's phone number. Before the customer complete the order, ask if they would like to receive confirmation over the SMS. If so, collect the phone number.***<span class="copy-static" title="Click to copy!" data-copy-text="Collect customer's phone number. Before the customer complete the order, ask if they would like to receive confirmation over the SMS. If so, collect the phone number."><span class="copy"></span></span> <br>
-Example: ***3477579861***<span class="copy-static" title="Click to copy!" data-copy-text="3477579861"><span class="copy"></span></span> <br>
+Description: ***After the customer complete the order, ask if they would like to receive confirmation over the email. If so, collect the email address.***<span class="copy-static" title="Click to copy!" data-copy-text="After the customer complete the order, ask if they would like to receive confirmation over the email. If so, collect the email address."><span class="copy"></span></span> <br>
+Example: ***ciscotac@cisco.com***<span class="copy-static" title="Click to copy!" data-copy-text="ciscotac@cisco.com"><span class="copy"></span></span> <br>
 Required: <b>Yes</b>
 
 7. By following the same pattern, create an entity to collect the customer's order details.<br>
 Entity Name: ***orderDetails***<span class="copy-static" title="Click to copy!" data-copy-text="orderDetails"><span class="copy"></span></span> <br>
 Entity Typs: <b>string</b> <br>
-Description: ***Collect the flowers and bouquets information that customer orders. Make sure to do correct math. If one rose is 20 dollars and the customer would like buy 9 roses then the price should be 180 dollars. Don't use double quotes (") in the generated responses.***<span class="copy-static" title="Click to copy!" data-copy-text="Collect the flowers and bouquets information that customer orders. Make sure to do correct math. If one rose is 20 dollars and the customer would like buy 9 roses then the price should be 180 dollars. Don't use double quotes in the generated responses."><span class="copy"></span></span> <br>
+Description: ***Collect the flowers and bouquets information that customer orders. Make sure to do correct math. If one rose is 20 dollars and the customer would like buy 9 roses then the price should be 180 dollars. ***<span class="copy-static" title="Click to copy!" data-copy-text="Collect the flowers and bouquets information that customer orders. Make sure to do correct math. If one rose is 20 dollars and the customer would like buy 9 roses then the price should be 180 dollars."><span class="copy"></span></span> <br>
 Example: ***Romantic Roses standard bouquet and one more bouquet with 9 roses***<span class="copy-static" title="Click to copy!" data-copy-text="Romantic Roses standard bouquet and one more bouquet with 9 roses"><span class="copy"></span></span> <br>
 Required: <b>Yes</b>
 
