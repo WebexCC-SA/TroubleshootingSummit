@@ -194,7 +194,7 @@ Also see this change in action below.
 5. Click on **Make Live** to publish the flow. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.67.gif)
 
-### Task 5. Configure SMS confirmation. 
+### Task 5. Configure email response. 
 
 1. If it is not open, navigate to **Webex Connect** portal. Find your Service **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Service">Your_Attendee_ID</span>_2000_Service<span   class="copy" title="Click to copy!"></span></span>**, navigate to the flow and click on **Manage** the flow. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.39.gif)
@@ -229,7 +229,7 @@ Also see this change in action below.
    ![Profiles](../graphics/Lab1_AI_Agent/2.79.gif)
 
 
-### Task 6. Test the order creating and details delivery over SMS. 
+### Task 6. Test the order creating and details delivery over email. 
 
 1. In the Webex AI Agent Studio, click on chat preview and order flowers for you friend. 
 
