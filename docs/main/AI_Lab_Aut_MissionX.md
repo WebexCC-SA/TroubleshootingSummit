@@ -58,13 +58,13 @@ Integrate the AI Agent with the Voice Flow.
       >
       > Create a loop by connecting the Play Music activity back to itself - to create a music loop, following the diagram provided.
       >
-      > Connect the **Failure** path from the **Play Music** activity to the **Disconnect Contact** activity.
+      > Connect the **Undefined Error** path from the **Play Music** activity to the **Disconnect Contact** activity.
       > 
-      > Music File: **defaultmusic_on_hold_cisco_opus_no_1.wav**
+      > Music File: **defaultmusic_on_hold.wav**
       >
     ![Profiles](../graphics/Lab1_AI_Agent/2.50.gif)  
 
-5. **Validate** and **Publish** Flow. In popped up window click on dropdown menu to select **Latest** label (**DO NOT** Select any other tag but only **Latest**), then click **Publish**.
+5. **Validate** and **Publish** Flow. In popped up window click on dropdown menu to select **Latest** label, then click **Publish**.
     ![Profiles](../graphics/Lab1_AI_Agent/2.51.gif)  
 
 6. Assign the Flow to your **Channel (Entry Point)** - Do this by first going to **Channel** > Search for your channel **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel**.
@@ -85,9 +85,9 @@ Integrate the AI Agent with the Voice Flow.
 
 ### Task 2. Test Agent Handoff Configurations.
 
-1. From the browser start logging in to [Agent Desktop](https://desktop.wxcc-us1.cisco.com){:target="_blank"} with the same credentials. You will see another login screen with OKTA on it where you may need to enter the email address again and the password provided to you. 
+1. Login to [Agent Desktop](https://desktop.wxcc-us1.cisco.com){:target="_blank"}.
 2. Select **Desktop** endpoint option and choose the team. **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="__2000_Team">Your_Attendee_ID</span>_2000_Team<span class="copy" title="Click to copy!"></span></span>**. Click **Submit**. Allow browser to access Microphone by clicking **Allow** on every visit.
-3. Make your agent ***Available*** and you're ready to make a call.
+3. Make your agent ***Available*** and you're ready to receive a call.
 
     ![profiles](../graphics/Lab1/5-Agent_Login.gif)
 
