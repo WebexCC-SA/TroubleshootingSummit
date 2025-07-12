@@ -14,7 +14,7 @@ In the previous **Mission 4**, you configured a fulfillment flow that executes a
 
 Note: To deliver the call back to AI Studio, you need to add an additional **VirtualAgentV2** block to the flow.
 
-1. Open **<span class="attendee-id-container">Autonomous_Scripted_Flow_2000_<span class="attendee-id-placeholder" data-prefix="Autonomous_Scripted_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** and click **Create Flow** flow. Click on **Edit** the flow. 
+1. Open **<span class="attendee-id-container">Autonomous_Scripted_Flow_2000_<span class="attendee-id-placeholder" data-prefix="Autonomous_Scripted_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** Click on **Edit** the flow. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.56.gif)
 
 2. Delete the **Disconnect Contact** node and add **VirtualAgentV2** node. Connect **HttpRequest** block to **VirtualAgentV2** block. 
@@ -34,7 +34,7 @@ Note: To deliver the call back to AI Studio, you need to add an additional **Vir
 
 #### Task 2. Configure State Event in the VirtualAgentV2 block
 
-Note: We need to configure the **VirtualAgentV2** block to send the order status to AI Studio, which will be retrieved in the specific response. For this, we will utilize the State Event.
+Note: We need to configure the **VirtualAgentV2** block to send the order status to AI Studio, this will trigger a specific response on Scripted AI Agent portal with this information. For this, we will utilize the State Event.
 
 1. Select the **VirtualAgentV2** block that you have added in the previous Task and click on **State Event**. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.62.gif)
@@ -44,8 +44,8 @@ Event Name: **order_status** </br>
 Event Data: **{"status":"{{order_status}}"}**
     ![Profiles](../graphics/Lab1_AI_Agent/6.63.gif)
 
-3. Understand the **State Event** configuration. See the picture below. 
-    ![Profiles](../graphics/Lab1_AI_Agent/6.64.png)
+3. <span style="color: red;">[Read Only]</span> Understand the **State Event** configuration. See the picture below. 
+    ![Profiles](../graphics/Lab1_AI_Agent/6.92.png)
 
 4. You can publish the flow at this point. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.61.gif)
@@ -55,11 +55,15 @@ Event Data: **{"status":"{{order_status}}"}**
 1. Go to AI Studio and open your Scripted Agent. If you followed all the steps the name of the Scripted Agent should be **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Scripted_AI_Agent">Your_Attendee_ID</span>_Scripted_AI_Agent<span class="copy" title="Click to copy!"></span></span>** 
     ![Profiles](../graphics/Lab1_AI_Agent/6.65.gif)
 
-2. Go to Script > Responses and search for the Response with the name **order_status**. This response is preconfigured in this lab for you. Go to Voice channel and review the configurations. 
+2. Go to Script > Responses and search for the Response with the name **order_status**. This response is preconfigured in this lab for you. Go to Voice channel. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.66.gif)
 
-3. Understand the **order_status** configuration. Please see the picture below. 
-    ![Profiles](../graphics/Lab1_AI_Agent/6.67.png)
+3. Configure **Incoming event name** with value ***order_status***<span class="copy-static" title="Click to copy!" data-copy-text="order_status"><span class="copy"></span></span>. Then click on **Publish** the AI Agent. 
+    ![Profiles](../graphics/Lab1_AI_Agent/6.93.gif)
+
+
+4. <span style="color: red;">[Read Only]</span> Understand the **order_status** configuration. Please see the picture below. 
+    ![Profiles](../graphics/Lab1_AI_Agent/6.94.png)
 
 #### Task 4. Test Scripted AI agent order status flow.  
 
