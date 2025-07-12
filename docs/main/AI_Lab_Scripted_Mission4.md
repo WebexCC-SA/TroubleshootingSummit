@@ -31,22 +31,22 @@ Your mission is to configure intents, entities, and responses to check the statu
 5. Enter a description such as ***Generate intents to track an order status***<span class="copy-static" title="Click to copy!" data-copy-text="Generate intents to track an order status"><span class="copy"></span></span> Set the Number of Variants to **10**, which will determine the number of new phrases to be generated.
     ![Profiles](../graphics/Lab1_AI_Agent/6.16.gif) 
 
-6. Click on **+ Link** and add **order_number** as an entity.Make it as **Required**. Click on the **Response** search and select **order_number** response. .
+6. Click on **+ Link** and add **order_number** as an entity. Make it as **Required**. Click on the **Response** search and select **order_number** response. .
     ![Profiles](../graphics/Lab1_AI_Agent/6.19.gif)    
 
-7. You can review it later, but for your information, the **order_number** response was preconfigured for you for this lab. In this response, the AI agent simply asks for the order number. Refer to the picture below. This is an interim response needed to fill the entity.
+7. (This step is read only) You can review it later, but for your information, the **order_number** response was preconfigured for you for this lab. In this response, the AI agent simply asks for the order number. Refer to the picture below. This is an interim response needed to fill the entity.
     ![Profiles](../graphics/Lab1_AI_Agent/6.20.png)  
 
-8. Scroll down and click on **Create new** response. 
+8. Scroll down to the final Response section and click on **Create new** response. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.21.gif)  
 
-9. Name the response as ***track_order***<span class="copy-static" title="Click to copy!" data-copy-text="track_order"><span class="copy"></span></span>. Update variant 1 test to ***Please wait while I check the order status.***<span class="copy-static" title="Click to copy!" data-copy-text="Please wait while I check the order status."><span class="copy"></span></span>.
+9. Name the response as ***track_order***<span class="copy-static" title="Click to copy!" data-copy-text="track_order"><span class="copy"></span></span>. Update variant 1 text to ***Please wait while I check the order status.***<span class="copy-static" title="Click to copy!" data-copy-text="Please wait while I check the order status."><span class="copy"></span></span>.
     ![Profiles](../graphics/Lab1_AI_Agent/6.22.gif) 
 
 10. Add **Voice Channel**.
     ![Profiles](../graphics/Lab1_AI_Agent/6.23.gif) 
 
-11. Configure **Voice Channel** with the same variants and click on **Create**. </br>
+11. Configure **Voice Channel** with the same text variants and click on **Create**. </br>
 ***Please wait while I check the order status.***<span class="copy-static" title="Click to copy!" data-copy-text="Please wait while I check the order status."><span class="copy"></span></span>.
     ![Profiles](../graphics/Lab1_AI_Agent/6.24.gif) 
 
@@ -54,7 +54,7 @@ Your mission is to configure intents, entities, and responses to check the statu
     ![Profiles](../graphics/Lab1_AI_Agent/6.25.gif) 
 
 
-13. Click on the **Preview** button on the top right side to test the bot. Try the bot flow by typing ***"I would like to track my order"***<span class="copy-static" title="Click to copy!" data-copy-text="I would like to track my order"><span class="copy"></span></span> and provide an order number that you created earlier. 
+13. Click on the **Preview** button on the top right side to test the bot. Try the bot flow by typing ***"I would like to track my order"***<span class="copy-static" title="Click to copy!" data-copy-text="I would like to track my order"><span class="copy"></span></span> and provide an order number that you created earlier. You should see that the Scripted AI Agent responds that it is working on tracking the order. In the next tasks, we will be configuring Fulfillment so the system can place an API call to retrieve the status of the requested order number.
     ![Profiles](../graphics/Lab1_AI_Agent/6.26.png) 
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
