@@ -26,7 +26,7 @@ Your mission is to integrate the Scripted AI agent with Voiceflow to enable it t
 5. Adjust the **Menu** node to have options 1 and 2. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.31.gif) 
 
-6. Bring one more VirtualAgentV2 node. Click on it. In the Contact Center AI Config search for scripted and select **Webex AI Agent (Scripted)**. Under the Virtual Agent option, search for the Scripted AI Agent with name **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Scripted_AI_Agent">Your_Attendee_ID</span>_Scripted_AI_Agent<span class="copy" title="Click to copy!"></span></span>**.
+6. Bring one more **VirtualAgentV2** node. Click on it. In the Contact Center AI Config search for scripted and select **Webex AI Agent (Scripted)**. Under the Virtual Agent option, search for the Scripted AI Agent with name **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Scripted_AI_Agent">Your_Attendee_ID</span>_Scripted_AI_Agent<span class="copy" title="Click to copy!"></span></span>**.
     ![Profiles](../graphics/Lab1_AI_Agent/6.32.gif) 
 
 7. Connect Option 1 of the **Menu** to the **VirtualAgentV2** node that is configured with Autonomous AI agent. And connect Option 2 to the **VirtualAgentV2** node that is configured with your Scripted AI Agent. 
@@ -44,6 +44,6 @@ Your mission is to integrate the Scripted AI agent with Voiceflow to enable it t
 11. Dial the number that is associated with **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** Channel. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.37.png) 
 
-12. During IVR, press 2 and ask **What is the store hours?**
+12. During IVR, press 2 and ask **What is the store hours?**. In the response you should hear the Scripted AI agent response with the store hours information that you have configured in the Mission 1. 
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
