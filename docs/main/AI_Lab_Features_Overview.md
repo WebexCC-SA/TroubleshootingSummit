@@ -1,9 +1,8 @@
 
 ## Story
 
-## Webex Contact Center AI Assistant Lab – Context Transfer
+This mission is designed to demonstrate the seamless collaboration between AI and human agents in a voice call flow. As a new call enters the system, the AI agent engages the caller with pre-configured questions, collects all relevant details, and then transfers the call to a human agent. The human agent receives a summary of the conversation and can view live transcripts while interacting with the caller, ensuring a smooth and informed customer support experience.
 
-This lab demonstrates how to pass contextual intelligence from AI agents to Webex Contact Center agents.
 
 ### Key Objectives:
 - Capture AI-generated summaries of virtual agent conversations

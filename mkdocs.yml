@@ -122,7 +122,7 @@ nav:
             - "Mission 4: Configure the fulfillment": ./main/AI_Lab_Scripted_Mission5.md
             - "Mission 5: Deliver fulfillment results to the caller": ./main/AI_Lab_Scripted_Mission6.md
       - Conclusion: ./main/AI_Lab_Scripted_Conclusion.md
-  - Topic Analytics:
+  - (Read Only) Topic Analytics:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Topic_Overview.md
             - "Mission 1: Explore Topic Analytics": ./main/AI_Lab_Topic_Mission1.md
