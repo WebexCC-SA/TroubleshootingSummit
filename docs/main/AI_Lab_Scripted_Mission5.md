@@ -18,14 +18,14 @@ In the previous **Mission 3**, you created intents, entities, and responses to e
 
 3. Add **Custom Event** and configure it with the following: </br>
 Event Name: ***order_details***<span class="copy-static" title="Click to copy!" data-copy-text="order_details"><span class="copy"></span></span></br>
-Event payload: **{"ordernumber":"${entity.order_number}"}**.</br>
+Event payload: **{"ordernumber":"${entity.order_number}"}**</br>
 **Save** the updated response. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.39.gif) 
 
-4. Save and Publish your changes. 
+4. Publish your changes. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.54.gif) 
 
-4. Understanding why we need to use a Custom Event for fulfillment: The API call to retrieve the order status can be made from the Voice Flow. By using a Custom Event, we send the order_number entity that the Scripted Agent collects during the call to retrieve the status.
+4. <span style="color: red;">[Read Only]</span>  Understanding why we need to use a Custom Event for fulfillment: The API call to retrieve the order status can be made from the Voice Flow. Currently there is no option to place the API call from the Scripted AI Agent portal. By using a Custom Event, we send the order_number entity details that the Scripted Agent collects during the call to retrieve the status.
     ![Profiles](../graphics/Lab1_AI_Agent/6.40.png) 
 
 
@@ -43,7 +43,7 @@ Event payload: **{"ordernumber":"${entity.order_number}"}**.</br>
 ***order_status***<span class="copy-static" title="Click to copy!" data-copy-text="order_status"><span class="copy"></span></span>
     ![Profiles](../graphics/Lab1_AI_Agent/6.43.gif) 
 
-4. The fulfillment will go over the Handled output. So in your Voice flow, remove the **Disconnect Contact** block and add **SetVariable block**. Connect Handled output to the SetVariable block. 
+4. The fulfillment activity will go out from the Handled output on your VirtualAgentV2 node. So in your Voice flow, remove the **Disconnect Contact** block and add **SetVariable block**. Connect Handled output to the SetVariable block. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.46.gif) 
 
 5. In the next step, you will assign the flow variable **MetaData_Scripted_Agent**, which we created earlier, with the value of the MetaData from the **VirtualAgentV2** block. This will allow us to decrypt and review the MetaData from the **VirtualAgentV2** block, which could be useful for troubleshooting any issues with the fulfillment flow.</br>

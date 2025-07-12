@@ -34,7 +34,7 @@ Your mission is to configure intents, entities, and responses to check the statu
 6. Click on **+ Link** and add **order_number** as an entity. Make it as **Required**. Click on the **Response** search and select **order_number** response. .
     ![Profiles](../graphics/Lab1_AI_Agent/6.19.gif)    
 
-7. (This step is read only) You can review it later, but for your information, the **order_number** response was preconfigured for you for this lab. In this response, the AI agent simply asks for the order number. Refer to the picture below. This is an interim response needed to fill the entity.
+7. <span style="color: red;">[Read Only]</span>  You can review it later, but for your information, the **order_number** response was preconfigured for you for this lab. In this response, the AI agent simply asks for the order number. Refer to the picture below. This is an interim response needed to fill the entity.
     ![Profiles](../graphics/Lab1_AI_Agent/6.20.png)  
 
 8. Scroll down to the final Response section and click on **Create new** response. 
