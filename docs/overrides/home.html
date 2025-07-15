@@ -56,8 +56,8 @@
 
     .tx-hero__image {
         width: 850px;
-        height: 1050px;
-        order: 1;
+        /* height: 1050px; */
+        order: 0;
         padding-right: 2.5rem;
     }
 
@@ -142,6 +142,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-direction: column;
         }
 
         .tx-hero__content {
@@ -239,26 +240,27 @@
 <section class="tx-container">
     <div class="md-grid md-typeset">
         <div class="tx-hero">
+                <h1>
+                    <script>
+                        var title = document.querySelector('meta[name="description"]').content
+                        const lab = title //.split(" ")[0]
+                        document.write(lab)
+                    </script>
+                </h1>
             <div class="tx-hero__image">
                 <img src="template_assets/CLAMER2025_Static_Midnight_Generic.png" draggable="false">
             </div>
             <div class="tx-hero__content">
-                <div class="tx-hero__logo">
+                <!-- <div class="tx-hero__logo">
                     <img src="template_assets/CL25_Cisco_Live_RGB_CiscoBlue_General_Logo_LTR_adjusted.png" draggable="false">
-                </div>
-                <h1>
-                    <script>
-                        var title = document.querySelector('meta[name="description"]').content
-                        const lab = title.split(" ")[0]
-                        document.write(lab)
-                    </script>
-                </h1>
-                <p>
+                </div> -->
+
+                <!-- <p>
                     <script>
                         const descr = title.substring(title.indexOf(" ") + 1)
                         document.write(descr)
                     </script>
-                </p>
+                </p> -->
                 <a href="main/overview/" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">
                     Get started
                 </a>

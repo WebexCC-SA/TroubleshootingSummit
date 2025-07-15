@@ -1,9 +1,9 @@
 ---
-site_name: "LTRCCT-2000 Hands-On AI in Action: The Future of Customer Care with Webex Contact Center"
-site_description: "LTRCCT-2000 Hands-On AI in Action: The Future of Customer Care with Webex Contact Center"
+site_name: "Webex Contact Center AI Bootcamp"
+site_description: "Webex Contact Center AI Bootcamp"
 Speaker: "Speakers: Krishna Tyagi & Mykola Danylchuk"
 site_author: Mykola Danylchuk, Yaroslav Bondar
-site_name: AI Bootcamp
+# site_name: AI Bootcamp
 # must be same as "site_name"
 copyright: Copyright &copy; 2025 Cisco Systems Inc. All Rights Reserved.
 theme:
