@@ -112,41 +112,41 @@ nav:
 #            - "Mission 3: Upload prebuilt AI Agent. Failover for Mission 2": ./main/AI_Lab_Aut_Mission3.md
             - "Mission 3: Integrating the AI Agent with Flow for Voice Calls": ./main/AI_Lab_Aut_MissionX.md
       - Conclusion: ./main/AI_Lab_Aut_Conclusion.md
-  - Scripted AI Agent:
-      - Lab Guide:
-            - "Lab overview": ./main/AI_Lab_Scripted_Overview_New.md
-            - "Mission 1: Configure Scripted Agent to answer basic questions": ./main/AI_Lab_Scripted_Mission1.md
-            #- "Mission 2 (Review & Testing): Integrate Scripted Agent with Voice Flow.": ./main/AI_Lab_Scripted_Mission2.md
-            - "Mission 2: Integrate Scripted Agent with Voice Flow.": ./main/AI_Lab_Scripted_Mission3.md
-            - "Mission 3: Configure flow to track an order": ./main/AI_Lab_Scripted_Mission4.md
-            - "Mission 4: Configure the fulfillment": ./main/AI_Lab_Scripted_Mission5.md
-            - "Mission 5: Deliver fulfillment results to the caller": ./main/AI_Lab_Scripted_Mission6.md
-      - Conclusion: ./main/AI_Lab_Scripted_Conclusion.md
-  - (Read Only) Topic Analytics:
-      - Lab Guide:
-            - "Lab overview": ./main/AI_Lab_Topic_Overview.md
-            - "Mission 1: Explore Topic Analytics": ./main/AI_Lab_Topic_Mission1.md
-      - Conclusion: ./main/AI_Lab_Topic_Conclusion.md
+#  - Scripted AI Agent:
+#      - Lab Guide:
+#            - "Lab overview": ./main/AI_Lab_Scripted_Overview_New.md
+#            - "Mission 1: Configure Scripted Agent to answer basic questions": ./main/AI_Lab_Scripted_Mission1.md
+#            #- "Mission 2 (Review & Testing): Integrate Scripted Agent with Voice Flow.": ./main/AI_Lab_Scripted_Mission2.md
+#            - "Mission 2: Integrate Scripted Agent with Voice Flow.": ./main/AI_Lab_Scripted_Mission3.md
+#            - "Mission 3: Configure flow to track an order": ./main/AI_Lab_Scripted_Mission4.md
+#            - "Mission 4: Configure the fulfillment": ./main/AI_Lab_Scripted_Mission5.md
+#            - "Mission 5: Deliver fulfillment results to the caller": ./main/AI_Lab_Scripted_Mission6.md
+#      - Conclusion: ./main/AI_Lab_Scripted_Conclusion.md
+#  - (Read Only) Topic Analytics:
+#      - Lab Guide:
+#            - "Lab overview": ./main/AI_Lab_Topic_Overview.md
+#            - "Mission 1: Explore Topic Analytics": ./main/AI_Lab_Topic_Mission1.md
+#      - Conclusion: ./main/AI_Lab_Topic_Conclusion.md
   - AI Assistant:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_Features_Overview.md
             - "Mission 1: AI Agent Transfer Summary": ./main/AI_Lab_Assist_Mission1.md
-            - "Mission 2: Call Drop Summary": ./main/AI_Lab_Assist_Mission_2.md
-            - "Mission 3: Real Time Transcript": ./main/AI_Lab_Assist_Mission3.md
-            - "Mission 4: AutoCSAT": ./main/AI_Lab_Assist_AutoCSAT.md
+#            - "Mission 2: Call Drop Summary": ./main/AI_Lab_Assist_Mission_2.md
+            - "Mission 2: Real Time Transcript": ./main/AI_Lab_Assist_Mission3.md
+            - "Mission 3: AutoCSAT": ./main/AI_Lab_Assist_AutoCSAT.md
       - Conclusion: ./main/AI_Lab_Assist_Conclusion.md
 #  - Scripted AI Agent:
 #      - Lab Guide:
 #            - "Lab overview": ./main/AI_Lab_Scripted_Overview.md
 #            - "Mission 1: Scripted AI Agent in Action": ./main/AIAgentTrack_NewUI_Mission2.md
 #          #  - "Mission 4: (Not Completed)Routing based on intent": ./main/AIAgentTrack_Mission3.md
-  - (BONUS) Integration with Digital Channel:
-      - Lab Guide:
-            - "Lab overview": ./main/AI_Lab_Digital_Ch_Overview.md
-            - "Mission 1: Create Chat Appliction and configure Webex Engage": ./main/AI_Lab_Digital_Mission1.md
-            - "Mission 2: Upload and configure Webex Connect flow": ./main/AI_Lab_Digital_Mission2.md
-            - "Mission 3: Test the AI Agent integration with the Digital Channel": ./main/AI_Lab_Digital_Mission3.md
-      - Conclusion: ./main/AI_Lab_Digital_Overview.md
+#  - (BONUS) Integration with Digital Channel:
+#     - Lab Guide:
+#            - "Lab overview": ./main/AI_Lab_Digital_Ch_Overview.md
+#            - "Mission 1: Create Chat Appliction and configure Webex Engage": ./main/AI_Lab_Digital_Mission1.md
+#            - "Mission 2: Upload and configure Webex Connect flow": ./main/AI_Lab_Digital_Mission2.md
+#            - "Mission 3: Test the AI Agent integration with the Digital Channel": ./main/AI_Lab_Digital_Mission3.md
+#      - Conclusion: ./main/AI_Lab_Digital_Overview.md
 #  - (BONUS) IVR Campaign:
 #     - Lab Guide:
 #           - "Lab overview": ./main/AI_Lab_IVR_Campaign_Overview.md
