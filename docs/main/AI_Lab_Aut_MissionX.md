@@ -11,7 +11,24 @@ Your mission is to:
 
 Integrate the AI Agent with the Voice Flow. 
 
-### Task 1. Build WxCC voice flow with AI Agent.
+
+### Task 1. Configure the following in your lab. 
+
+> Telephony Entry Point/Channel:  **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Channel">Your_Attendee_ID</span>_2000_Channel<span class="copy"></span></span>**
+
+> Assign a number to the Channel. You will use this number and the channel for all further testings. 
+
+> Team:  **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Team">Your_Attendee_ID</span>_2000_Team<span class="copy"></span></span>**
+
+> Telephony Queue:  **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Voice_Queue">Your_Attendee_ID</span>_2000_Voice_Queue<span class="copy"></span></span>**. Assigned the team **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Team">Your_Attendee_ID</span>_2000_Team<span class="copy"></span></span>** to this queue.
+
+
+> Configure your admin user to be an agent and assigned it to the team **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Team">Your_Attendee_ID</span>_2000_Team<span class="copy"></span></span>**
+
+> This lab requires you to have the Email channel already configured in your tenant. If you don't have the Email channel set up in your sandbox, please work on it and reach out to the proctors if you need any assistance with configuring the Email channel.
+
+
+### Task 2. Build WxCC voice flow with AI Agent.
 
 1. In Control Hub navigate to **Flows**, click on **Manage Flows** dropdown list and select **Create Flows**. Select **Start Fresh**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.47.gif)
@@ -83,7 +100,7 @@ Integrate the AI Agent with the Voice Flow.
 9. Dial Support Number assigned to your **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** to test the Autonomous AI Agent over a voice call.
 
 
-### Task 2. Test Agent Handoff Configurations.
+### Task 3. Test Agent Handoff Configurations.
 
 1. Login to [Agent Desktop](https://desktop.wxcc-us1.cisco.com){:target="_blank"}.
 2. Select **Desktop** endpoint option and choose the team. **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="__2000_Team">Your_Attendee_ID</span>_2000_Team<span class="copy" title="Click to copy!"></span></span>**. Click **Submit**. Allow browser to access Microphone by clicking **Allow** on every visit.
