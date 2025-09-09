@@ -25,7 +25,6 @@ Integrate the AI Agent with the Voice Flow.
 
 > Configure your admin user to be an agent and assigned it to the team **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Team">Your_Attendee_ID</span>_2000_Team<span class="copy"></span></span>**
 
-> This lab requires you to have the Email channel already configured in your tenant. If you don't have the Email channel set up in your sandbox, please work on it and reach out to the proctors if you need any assistance with configuring the Email channel.
 
 
 ### Task 2. Build WxCC voice flow with AI Agent.
