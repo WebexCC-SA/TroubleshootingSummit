@@ -70,7 +70,7 @@ icon: material/bullseye-arrow
 
 <!-- Markdown content with embedded HTML -->
 <div>
-    <h2>Please enter Attendee ID as <b>any</b> 3-digit number.</h2> 
+    <h2>Please enter any number from 001 to 999 as your Attendee ID. For example, 777, 456, or any other three-digit number of your choice.</h2> 
     <h3>All configuration entries in the lab guide will be renamed to include your Attendee ID.</h3>
     <form id="attendee-form">
         <label for="attendee">Attendee ID:</label>
@@ -82,6 +82,22 @@ icon: material/bullseye-arrow
 
     <p>Your stored Attendee ID is: <b><span id="display-attendee">No ID stored</span></b></p>
 </div>
+
+If you have your own tenant, you can use it to complete this lab. <br>
+If you don't have your own tenant, you can login to Cisco test tenant using the credentials below. These Cisco tenants will be deleted in 2 weeks.  <br>
+
+<b>URL: https://admin.webex.com<br>
+Username: admin@troubleshootingsummit2025-1.wbx.ai<br>
+Password: Ctgy@YP8LM<br></b>
+
+OR<br>
+
+<b>URL: https://admin.webex.com<br>
+Username: admin@troubleshootingsummit2025-2.wbx.ai<br>
+Password: 4GftOlYz?D<br></b>
+
+
+
 
 # Overview
 
