@@ -83,21 +83,6 @@ icon: material/bullseye-arrow
     <p>Your stored Attendee ID is: <b><span id="display-attendee">No ID stored</span></b></p>
 </div>
 
-If you have your own tenant, you can use it to complete this lab. <br>
-If you don't have your own tenant, you can login to Cisco test tenant using the credentials below. These Cisco tenants will be deleted in 2 weeks.  <br>
-
-<b>URL: https://admin.webex.com<br>
-Username: admin@troubleshootingsummit2025-1.wbx.ai<br>
-Password: Ctgy@YP8LM<br></b>
-
-OR<br>
-
-<b>URL: https://admin.webex.com<br>
-Username: admin@troubleshootingsummit2025-2.wbx.ai<br>
-Password: 4GftOlYz?D<br></b>
-
-
-
 
 # Overview
 
